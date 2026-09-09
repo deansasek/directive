@@ -10,13 +10,15 @@ Get your engineering environment set up.
 
 ## Tools
 
-- **Claude Code** — `brew install anthropic/claude-code/claude`
+- **Homebrew** — `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - **tmux** — `brew install tmux`
-- **oh-my-zsh** — `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- **oh-my-zsh** — `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 - **Git** — `brew install gh`
+- **Claude Code** — `brew install anthropic/claude-code/claude`
 
 ## Pages
 
+- **homebrew** — install and update Homebrew
 - **tools** — install commands for each tool
 - **directory-conventions** — where to put things
 
