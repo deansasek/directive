@@ -15,16 +15,12 @@ Get your engineering environment set up.
 - **oh-my-zsh** — `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 - **Git** — `xcode-select --install`
 
-## Directory Convention
+## Pages
 
-Clone repos to `~/src/` to keep them organized:
-
-```bash
-mkdir -p ~/src
-git clone https://github.com/user/repo.git ~/src/repo
-```
+- **tools** — install commands for each tool
+- **directory-conventions** — where to put things
 
 ## Skills
 
 - **init** — create `~/src/` if missing
-- **validate** — check if all tools are installed and `~/src/` exists
+- **validate** — check if all tools are installed
