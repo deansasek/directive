@@ -1,7 +1,7 @@
 ---
 name: onboarding
 type: article
-about: Engineering environment setup — Claude Code, tmux, and oh-my-zsh.
+about: Engineering environment setup — tools, directory conventions, and environment checks.
 ---
 
 # Onboarding
@@ -15,6 +15,15 @@ Get your engineering environment set up.
 - **oh-my-zsh** — `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 - **Git** — `xcode-select --install`
 
+## Directory Convention
+
+Clone repos to `~/src/` to keep them organized:
+
+```bash
+mkdir -p ~/src
+git clone https://github.com/user/repo.git ~/src/repo
+```
+
 ## Skills
 
-- **validate** — check if all tools are installed
+- **validate** — check if all tools are installed and `~/src/` exists
