@@ -6,7 +6,7 @@ about: The stock agents that come with the directive toolkit.
 
 # Agents
 
-Directive ships with three stock agents:
+Directive ships with four stock agents:
 
 ## `@project-manager`
 
@@ -20,6 +20,10 @@ Researches codebases and surfaces findings. Use for audits, exploring unfamiliar
 
 Implements, scaffolds, refactors, and fixes. Reads article pages for conventions when relevant — no preloading.
 
+## `@query`
+
+Handles SQL queries and data access. Uses the cheapest model for cost efficiency.
+
 ## Usage
 
 ```
@@ -27,6 +31,7 @@ claude --plugin-dir ./directive
 @project-manager plan the auth refactor
 @researcher audit the billing module
 @engineer scaffold a new article called 'api-design'
+@query show me active users from last week
 ```
 
 ## Adding Agents
