@@ -1,10 +1,10 @@
 ---
-name: patterns
+name: testing-patterns
 type: page
 about: Common testing patterns — Arrange-Act-Assert, mocking, and fixtures.
 ---
 
-# Testing Patterns
+# Testing — Patterns
 
 ## Arrange-Act-Assert
 

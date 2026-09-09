@@ -26,6 +26,10 @@ Reference for engineering environment setup, GitHub conventions, Kotlin tooling,
 ### REST
 - **restful-apis** — resource modeling, HTTP semantics, payload design, versioning, security, resiliency
 
+### Testing
+- **testing-types** — unit vs integration vs e2e
+- **testing-patterns** — Arrange-Act-Assert, mocking, fixtures
+
 ### Core Design
 - **core-design-dry** — Don't Repeat Yourself
 - **core-design-kiss** — Keep It Simple

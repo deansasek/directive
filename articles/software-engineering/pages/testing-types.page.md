@@ -1,10 +1,10 @@
 ---
-name: types
+name: testing-types
 type: page
 about: Unit vs integration vs e2e testing.
 ---
 
-# Test Types
+# Testing — Types
 
 ## Unit
 

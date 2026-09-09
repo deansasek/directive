@@ -1,10 +1,10 @@
 ---
-name: suggest
+name: test-suggest
 type: skill
 about: Suggests test cases for a function or module.
 ---
 
-# Suggest
+# Test Suggest
 
 Given a function or module, suggests test cases.
 
