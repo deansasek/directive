@@ -7,7 +7,7 @@ about: Updates frontmatter fields or replaces the full content of a file.
 # Update
 
 **Arguments:**
-- `path` — path to the file, e.g. `skills/read.skill.md`
+- `path` — path to the file relative to the repo root, e.g. `articles/github-pr-naming/skills/validate.skill.md`
 - `mode` — `patch` or `replace`
 
 ## Patch Mode

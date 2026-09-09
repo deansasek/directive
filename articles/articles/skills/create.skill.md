@@ -16,7 +16,7 @@ Creates a new file with frontmatter and, for articles, the necessary subdirector
 
 **Behavior:**
 1. Validates inputs: kebab-case names, no `..` in paths
-2. For `article`: creates `articles/<article-name>/<article-name>.article.md` plus `skills/`, `pages/`, `reference/` directories
+2. For `article`: creates `articles/<article-name>/<article-name>.article.md` plus `skills/`, `pages/`, `reference/` directories under `articles/`
 3. For `skill`: creates `articles/<article-name>/skills/<item-name>.skill.md`
 4. For `page`: creates `articles/<article-name>/pages/<item-name>.page.md`
 5. If target already exists: error "already exists at <path>"
