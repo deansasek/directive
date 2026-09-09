@@ -6,6 +6,12 @@ about: Install commands for each tool.
 
 # Tools Setup
 
+## Homebrew
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ## Claude Code
 
 ```bash
@@ -25,7 +31,7 @@ brew install tmux
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## Git (via GitHub CLI)
+## Git
 
 ```bash
 brew install gh

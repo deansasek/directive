@@ -18,7 +18,6 @@ Get your engineering environment set up.
 
 ## Pages
 
-- **homebrew** — install and update Homebrew
 - **tools** — install commands for each tool
 - **directory-conventions** — where to put things
 
