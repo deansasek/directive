@@ -1,1 +1,1 @@
-{"articles":[{"name":"articles","type":"article","about":"Meta-article explaining how the articles system works — its structure, core skills, and access patterns."}]}
+{"articles":[{"name":"articles","type":"article","about":"Meta-article explaining how the articles system works."},{"name":"github-pr-naming","type":"article","about":"Enterprise-standard Pull Request naming — syntax, types, regex, and governance rules."}]}
