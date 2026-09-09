@@ -26,4 +26,5 @@ git clone https://github.com/user/repo.git ~/src/repo
 
 ## Skills
 
+- **init** — create `~/src/` if missing
 - **validate** — check if all tools are installed and `~/src/` exists
