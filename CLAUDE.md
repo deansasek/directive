@@ -1,10 +1,10 @@
-# Directive
+# Ultralite
 
 An engineering toolkit for Claude Code agents.
 
 ## Agents
 
-Invoke as `/directive:<agent-name>`.
+Invoke as `/ultralite:<agent-name>`.
 
 - `@project-manager` — orchestrates tasks, delegates to researcher and engineer
 - `@researcher` — explores codebases, surfaces findings
@@ -30,6 +30,3 @@ Manage articles via the article-system skills (read `articles/articles/skills/<s
 - `delete` — delete article, skill, or page
 - `regenerate` — regenerate manifest
 
-## Article Index
-
-7 articles: `articles`, `core-design-principles`, `github`, `kotlin`, `making-agents`, `onboarding`, `testing`

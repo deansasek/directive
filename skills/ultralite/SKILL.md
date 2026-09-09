@@ -1,16 +1,16 @@
 ---
-name: directive
+name: ultralite
 type: skill
-about: Directive engineering toolkit — agents, articles, and conventions.
+about: Ultralite engineering toolkit — agents, articles, and conventions.
 ---
 
-# Directive
+# Ultralite
 
 An engineering toolkit for Claude Code agents.
 
 ## Agents
 
-Located in `agents/`. Invoke as `/directive:<agent-name>`.
+Located in `agents/`. Invoke as `/ultralite:<agent-name>`.
 
 - `@project-manager` — orchestrates tasks
 - `@researcher` — explores codebases

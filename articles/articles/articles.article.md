@@ -23,4 +23,4 @@ The articles system organizes knowledge into articles, skills, and pages.
 - **overview** — what articles are and the three types
 - **anatomy** — file types, frontmatter, naming, reference files
 - **usage** — how to work with articles and best practices
-- **agents** — stock agents that come with directive
+- **agents** — stock agents

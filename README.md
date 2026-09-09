@@ -1,18 +1,18 @@
-# Directive
+# Ultralite
 
 An engineering toolkit for Claude Code agents — agents, articles, and conventions for consistent engineering.
 
 ## Install
 
 ```bash
-git clone https://github.com/deansasek/directive.git
-claude --plugin-dir ./directive
+git clone https://github.com/deansasek/ultralite.git
+claude --plugin-dir ./ultralite
 ```
 
 Or auto-load:
 
 ```bash
-cp -r directive ~/.claude/skills/directive
+cp -r ultralite ~/.claude/skills/ultralite
 ```
 
 ## Agents

@@ -1,12 +1,12 @@
 ---
 name: agents
 type: page
-about: The stock agents that come with the directive toolkit.
+about: The stock agents that come with the ultralite toolkit.
 ---
 
 # Agents
 
-Directive ships with five stock agents:
+Ultralite ships with five stock agents:
 
 ## `@project-manager`
 
@@ -31,7 +31,7 @@ Handles SQL queries and data access. Uses the cheapest model for cost efficiency
 ## Usage
 
 ```
-claude --plugin-dir ./directive
+claude --plugin-dir ./ultralite
 @project-manager plan the auth refactor
 @researcher audit the billing module
 @engineer scaffold a new article called 'api-design'
