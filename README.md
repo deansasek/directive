@@ -27,8 +27,13 @@ cp -r ultralite ~/.claude/skills/ultralite
 
 ## Articles
 
-See `articles/manifest.json` for all articles.
+See `articles/manifest.json` for all articles, or read `articles/meta/articles/articles.article.md`.
 
-**Core:** articles, onboarding
-**Conventions:** github, core-design-principles, testing
-**Languages:** kotlin
+### software-engineering
+onboarding, github, kotlin, restful-apis, core-design-principles, testing
+
+### agents
+making-agents
+
+### meta
+articles

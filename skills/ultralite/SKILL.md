@@ -22,11 +22,11 @@ Located in `agents/`. Invoke as `/ultralite:<agent-name>`.
 
 Located in `articles/`. Index at `articles/manifest.json`.
 
-Read an article: open `articles/<name>/<name>.article.md`.
+Read an article: open `articles/<domain>/<name>/<name>.article.md`.
 
 ## Core Skills
 
-Article-system skills live in `articles/articles/skills/`. Read them to manage articles:
+Article-system skills live in `articles/meta/articles/skills/`. Read them to manage articles:
 
 - `list` — list all articles from manifest
 - `read` — read a file by path

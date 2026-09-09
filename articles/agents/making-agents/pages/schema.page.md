@@ -33,4 +33,4 @@ background: <true|false>
 | `color` | No | `blue`, `green`, `orange`, `cyan`, `yellow`, `red`, `purple` |
 | `effort` | No | `low`, `medium`, `high` |
 | `background` | No | `true` for fire-and-forget workers |
-| `model` | No | `sonnet`, `opus`, `haiku`, `fable` |
+| `model` | No | `sonnet`, `opus`, `haiku` |

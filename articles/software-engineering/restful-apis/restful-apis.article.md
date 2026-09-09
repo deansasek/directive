@@ -8,4 +8,4 @@ about: RESTful API architecture — resource modeling, HTTP semantics, payload d
 
 ## Pages
 
-- **restful-apis** — resource modeling, HTTP semantics, payload design, versioning, security, resiliency
+- **restful-apis-overview** — resource modeling, HTTP semantics, payload design, versioning, security, resiliency

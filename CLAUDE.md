@@ -20,7 +20,7 @@ To read an article: open `articles/<domain>/<name>/<name>.article.md`.
 
 ## Article Skills
 
-Manage articles via the article-system skills (read `articles/articles/skills/<skill>.skill.md` for details):
+Manage articles via the article-system skills (read `articles/meta/articles/skills/<skill>.skill.md` for details):
 
 - `list` — list all articles from manifest
 - `read` — read a file by path

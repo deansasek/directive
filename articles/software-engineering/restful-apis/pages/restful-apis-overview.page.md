@@ -1,5 +1,5 @@
 ---
-name: restful-apis
+name: restful-apis-overview
 type: page
 about: RESTful API architecture — resource modeling, HTTP semantics, payload design, versioning, security, and resiliency.
 ---
