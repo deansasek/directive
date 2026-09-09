@@ -12,7 +12,7 @@ Scans for all `.article.md` files under `articles/` and writes a fresh `manifest
 1. Recursively finds all files matching `*.article.md` under `articles/`
 2. For each file:
    - Derives `name` from the filename: `timeline.article.md` → `name: timeline`
-   - Extracts `type` and `about` from the YAML frontmatter
+   - Extracts `type`, `about`, and `domain` from the YAML frontmatter
 3. Validates entries:
    - Malformed frontmatter: skipped, warning returned
    - Duplicate `name`: skipped, warning returned
@@ -21,7 +21,7 @@ Scans for all `.article.md` files under `articles/` and writes a fresh `manifest
 
 **Manifest format:**
 ```json
-{"articles":[{"name":"<name>","type":"article","about":"<about>"},...]}
+{"articles":[{"name":"<name>","domain":"<domain>","type":"article","about":"<about>"},...]}
 ```
 
 **Notes:**

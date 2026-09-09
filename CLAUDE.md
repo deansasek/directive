@@ -16,7 +16,7 @@ Invoke as `/ultralite:<agent-name>`.
 
 Located in `articles/`. Index at `articles/manifest.json`.
 
-To read an article: open `articles/<name>/<name>.article.md`.
+To read an article: open `articles/<domain>/<name>/<name>.article.md`.
 
 ## Article Skills
 

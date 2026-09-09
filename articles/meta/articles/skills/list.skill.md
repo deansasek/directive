@@ -11,9 +11,9 @@ Reads `manifest.json` and returns all articles as a formatted list.
 **Behavior:**
 - Reads `../../manifest.json`
 - If the file does not exist, runs `regenerate` automatically, then re-reads
-- Returns each article's `name`, `type`, and `about`
+- Returns each article's `name`, `domain`, and `about`
 
 **Output format:**
 ```
-- <name> (<type>): <about>
+- <name> (<domain>): <about>
 ```

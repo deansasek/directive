@@ -15,6 +15,6 @@ Returns only the YAML frontmatter block of a file — nothing from the Markdown 
 4. Returns an empty response if the file has no frontmatter
 
 **Arguments:**
-- `path` — path to the file relative to the repo root, e.g. `articles/github/skills/pr-validate.skill.md`
+- `path` — path to the file relative to the repo root, e.g. `articles/software-engineering/github/skills/pr-validate.skill.md`
 
 **Error:** "path traversal not allowed" if path contains `..`

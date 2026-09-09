@@ -1,1 +1,10 @@
-{"articles":[{"name":"articles","type":"article","about":"Meta-article explaining how the articles system works."},{"name":"software-engineering","type":"article","about":"Software engineering reference — onboarding, GitHub conventions, Kotlin tooling, REST APIs, testing, and core design principles."},{"name":"making-agents","type":"article","about":"How to author custom agents — frontmatter schema, tools, and patterns."}]}
+{"articles":[
+  {"name":"github","domain":"software-engineering","type":"article","about":"GitHub conventions — PR naming, commits, and PR templates."},
+  {"name":"testing","domain":"software-engineering","type":"article","about":"Testing patterns — unit, integration, and when to use each."},
+  {"name":"onboarding","domain":"software-engineering","type":"article","about":"Engineering environment setup — tools, directory conventions, and environment checks."},
+  {"name":"kotlin","domain":"software-engineering","type":"article","about":"Kotlin development environment setup and tooling."},
+  {"name":"restful-apis","domain":"software-engineering","type":"article","about":"RESTful API architecture — resource modeling, HTTP semantics, payload design, versioning, security, and resiliency."},
+  {"name":"core-design-principles","domain":"software-engineering","type":"article","about":"Core software design principles — DRY, KISS, YAGNI, SoC, and SOLID."},
+  {"name":"making-agents","domain":"agents","type":"article","about":"How to author custom agents — frontmatter schema, tools, and patterns."},
+  {"name":"articles","domain":"meta","type":"article","about":"Meta-article explaining how the articles system works."}
+]}
