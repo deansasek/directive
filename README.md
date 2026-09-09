@@ -5,16 +5,11 @@ An engineering toolkit for Claude Code agents, distributed as a plugin.
 ## Install
 
 ```bash
-# Clone the repo
+# As a plugin (full toolkit)
 git clone https://github.com/deansasek/directive.git
-
-# Run from the plugin directory
 claude --plugin-dir ./directive
-```
 
-Or copy to your skills directory for auto-loading:
-
-```bash
+# Or auto-load from skills directory
 cp -r directive ~/.claude/skills/directive
 ```
 
@@ -22,4 +17,16 @@ cp -r directive ~/.claude/skills/directive
 
 ### Articles
 
-Organized knowledge for AI agents — a manifest-driven system of articles, skills, and pages. See `articles/articles/articles.article.md` for details.
+Manifest-driven knowledge system. See `articles/articles/articles.article.md` for the meta-article.
+
+To install articles globally only:
+
+```bash
+cp -r articles ~/.claude/articles
+```
+
+Then add to `~/.claude/CLAUDE.md`:
+
+```
+See `~/.claude/articles/manifest.json` to discover articles.
+```
