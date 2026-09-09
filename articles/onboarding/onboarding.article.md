@@ -13,7 +13,7 @@ Get your engineering environment set up.
 - **Claude Code** — `brew install anthropic/claude-code/claude`
 - **tmux** — `brew install tmux`
 - **oh-my-zsh** — `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-- **Git** — `xcode-select --install`
+- **Git** — `brew install gh`
 
 ## Pages
 

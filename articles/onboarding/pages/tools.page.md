@@ -25,8 +25,8 @@ brew install tmux
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## Git
+## Git (via GitHub CLI)
 
 ```bash
-xcode-select --install
+brew install gh
 ```
