@@ -1,10 +1,10 @@
 ---
-name: ultralite
+name: init
 type: skill
 about: Ultralite engineering toolkit — agents, articles, and conventions.
 ---
 
-# Ultralite
+# Init
 
 An engineering toolkit for Claude Code agents.
 
