@@ -1,32 +1,34 @@
 # Directive
 
-An engineering toolkit for Claude Code agents, distributed as a plugin.
+An engineering toolkit for Claude Code agents — agents, articles, and conventions for consistent engineering.
 
 ## Install
 
 ```bash
-# As a plugin (full toolkit)
 git clone https://github.com/deansasek/directive.git
 claude --plugin-dir ./directive
+```
 
-# Or auto-load from skills directory
+Or auto-load:
+
+```bash
 cp -r directive ~/.claude/skills/directive
 ```
 
-## Features
+## Agents
 
-### Articles
+| Agent | Role |
+|-------|------|
+| `@project-manager` | Orchestrates tasks, delegates |
+| `@researcher` | Explores codebases, surfaces findings |
+| `@engineer` | Implements, scaffolds, fixes |
+| `@linter` | Runs linters and formatters |
+| `@query` | SQL queries and data access |
 
-Manifest-driven knowledge system. See `articles/articles/articles.article.md` for the meta-article.
+## Articles
 
-To install articles globally only:
+See `articles/manifest.json` for all articles.
 
-```bash
-cp -r articles ~/.claude/articles
-```
-
-Then add to `~/.claude/CLAUDE.md`:
-
-```
-See `~/.claude/articles/manifest.json` to discover articles.
-```
+**Core:** articles, onboarding
+**Conventions:** github, core-design-principles, testing
+**Languages:** kotlin
