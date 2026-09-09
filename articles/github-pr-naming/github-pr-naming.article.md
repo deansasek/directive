@@ -19,6 +19,16 @@ Examples:
 - `fix(gateway): resolve memory leak`
 - `chore!: deprecate node 18 support`
 
+## Skills
+
+- **validate** — check a PR title against the standard
+- **suggest** — generate a PR title from a description
+
+## Pages
+
+- **types** — when to use each type prefix
+- **examples** — good and bad examples
+
 ## Types
 
 | Type | Use for |
@@ -40,15 +50,15 @@ Examples:
 ^(\[[A-Z0-9]+-[0-9]+\] )?(feat|fix|chore|refactor|perf|test|docs|style|ci|infra)(\([a-z0-9\-]+\))?!?: [a-z0-9].+$
 ```
 
-Breaking changes: append `!` before the colon (e.g., `feat(api)!: remove v1 endpoints`).
+Breaking changes: append `!` before the colon.
 
 ## Rules
 
 - **Imperative mood**: `resolve`, not `resolved` or `resolves`
 - **Ticket ID uppercase**: `[API-4029]`, not `[api-4029]`
-- **Ticketless PRs**: one thing only — no "and" in the description
+- **Ticketless PRs**: one thing only — no "and"
 - **Scope encouraged**: `fix(billing):` in large monorepos
 
 ## Squash Merge
 
-Set your repo to require squash-and-merge. The PR title becomes the single commit on main — aligning git history with your ticket tracker.
+Require squash-and-merge. The PR title becomes the single commit on main.
