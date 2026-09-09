@@ -1,35 +1,44 @@
 ---
 name: update
 type: skill
-about: Updates frontmatter or content. Patch or replace.
+about: Updates frontmatter fields or replaces the full content of a file.
 ---
 
 # Update
 
-## Arguments
-
-- `path` — file path, e.g. `articles/skills/read.skill.md`
+**Arguments:**
+- `path` — path to the file, e.g. `articles/skills/read.skill.md`
 - `mode` — `patch` or `replace`
 
 ## Patch Mode
 
-Pass fields to update directly:
+Updates specific fields without touching the rest of the file.
 
 ```
-/update articles/skills/read.skill.md patch about="New about."
+/update <path> patch about="New about text."
 ```
 
-Fields: `about` (frontmatter), `body` (Markdown body).
+**Updatable fields:**
+- `about` — updates the `about` frontmatter field
+- `name` — updates the `name` frontmatter field (use with caution; may break references)
+- `body` — replaces the Markdown body content (everything after the frontmatter block)
+
+All other content is preserved.
 
 ## Replace Mode
 
-```
-/update articles/skills/read.skill.md replace content="<full file>"
-```
-
 Overwrites the entire file.
 
-## Notes
+```
+/update <path> replace content="<full file content>"
+```
 
-- Path traversal (`..`) is rejected
-- File must exist
+**Behavior:**
+1. Validates path: no `..` allowed
+2. For `patch`: reads file, merges specified fields, writes back
+3. For `replace`: writes the provided content as the new file
+4. Returns a summary of what changed
+
+**Errors:**
+- "path traversal not allowed" if `..` in path
+- "file not found at <path>" if file doesn't exist

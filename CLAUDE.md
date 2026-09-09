@@ -1,6 +1,6 @@
 # Articles
 
-A system for organizing knowledge into articles, skills, and pages.
+A system for Claude Code agents to organize skills, documentation, and knowledge into articles.
 
 To install globally:
 

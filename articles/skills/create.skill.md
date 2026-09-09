@@ -1,26 +1,36 @@
 ---
 name: create
 type: skill
-about: Creates a new article, skill, or page with correct structure and frontmatter.
+about: Creates a new article, skill, or page with correct frontmatter and directory structure.
 ---
 
 # Create
 
-## Arguments
+Creates a new file with frontmatter and, for articles, the necessary subdirectories.
 
+**Arguments:**
 - `type` — `article`, `skill`, or `page`
-- `article-name` — the article to create inside, or the name of the new article
-- `item-name` — the new skill or page name (not for articles)
-- `about` — summary (required for articles; optional for skills/pages)
+- `article-name` — the article to create inside (for skill/page) or the name of the new article (for article)
+- `item-name` — the name of the new skill or page (not used when creating an article)
+- `about` — the about summary (required for articles; optional but recommended for skills/pages)
 
-## Examples
+**Behavior:**
+1. Validates inputs: kebab-case names, no `..` in paths
+2. For `article`: creates `<article-name>/<article-name>.article.md` plus `skills/`, `pages/`, `reference/` directories
+3. For `skill`: creates `<article-name>/skills/<item-name>.skill.md`
+4. For `page`: creates `<article-name>/pages/<item-name>.page.md`
+5. If target already exists: error "already exists at <path>"
+6. Runs `regenerate` to update manifest
 
-- `/create article my-article about="What this covers."`
-- `/create skill my-article create-timeline about="Creates a timeline."`
-- `/create page my-article timeline-format about="Timeline format reference."`
+**Frontmatter created:**
+```yaml
+---
+name: <name>
+type: <type>
+about: <about or empty>
+---
+```
 
-## Notes
-
-- Article/item names: kebab-case
-- Path traversal (`..`) is rejected
-- If target exists: error "already exists at <path>"
+**Errors:**
+- "path traversal not allowed" if `..` in path
+- "already exists at <path>" if file exists

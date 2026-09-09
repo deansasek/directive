@@ -1,7 +1,7 @@
 ---
 name: anatomy
 type: page
-about: File types, frontmatter spec, directory structure, and naming conventions.
+about: File types, frontmatter, directory structure, and naming conventions.
 ---
 
 # Anatomy
@@ -45,3 +45,12 @@ articles/
 
 - kebab-case: `timeline`, `create-milestone`
 - article file matches its directory: `timeline/timeline.article.md`
+
+## Reference Files
+
+Reference files live in `reference/` and are private to each article.
+
+From skills/pages, link as: `../reference/<filename>`
+From the article file, link as: `reference/<filename>`
+
+Use for: diagrams, code samples, pseudocode, any file a skill or page needs to reference.

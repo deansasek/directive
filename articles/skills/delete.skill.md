@@ -1,26 +1,28 @@
 ---
 name: delete
 type: skill
-about: Deletes an article, skill, or page.
+about: Deletes an article, skill, or page. Deleting a skill or page requires the owning article name.
 ---
 
 # Delete
 
-## Arguments
+Removes a file or directory from `.claude/articles/`.
 
+**Arguments:**
 - `type` — `article`, `skill`, or `page`
-- `article-name` — the owning article (required for skills/pages)
-- `item-name` — the skill or page to delete
-- `confirm` — required `yes` to delete an article
+- `article-name` — the owning article (required for skill/page); for article deletion, the article to delete
+- `item-name` — the skill or page name to delete (not used for article deletion)
+- `confirm` — required `yes` when deleting an article
 
-## Examples
+**Behavior:**
+1. Validates path: no `..` allowed
+2. For `article`: deletes `<article-name>/` directory and everything inside
+3. For `skill`: deletes `<article-name>/skills/<item-name>.skill.md`
+4. For `page`: deletes `<article-name>/pages/<item-name>.page.md`
+5. Runs `regenerate` to update manifest
 
-- `/delete article my-article` (requires `confirm=yes`)
-- `/delete skill my-article create-timeline`
-- `/delete page my-article timeline-format`
-
-## Notes
-
-- Path traversal (`..`) is rejected
-- Deleting last skill/page from an article leaves an empty directory
-- Deleting an article removes everything inside it
+**Errors:**
+- "path traversal not allowed" if `..` in path
+- "article-name is required for skill/page deletion" if missing
+- "confirm=yes required to delete an article" if not provided
+- "file not found at <path>" if target doesn't exist

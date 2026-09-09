@@ -1,7 +1,7 @@
 ---
 name: overview
 type: page
-about: What articles are, why they exist, and the problems they solve.
+about: What articles are, the three types, and the core concept.
 ---
 
 # Overview
@@ -9,17 +9,13 @@ about: What articles are, why they exist, and the problems they solve.
 Articles organizes knowledge into three types:
 
 - **skills** — do this (directives)
-- **pages** — when to do this and in what order (workflow guidance)
+- **pages** — when to do this, in what order (workflow guidance)
 - **articles** — entry points that coordinate skills and pages for a topic
 
-## Access Pattern
+Articles are never accessed directly. The path is always:
 
 ```
 manifest.json → <name>.article.md → skills/ or pages/
 ```
 
-Skills and pages are never accessed directly.
-
-## Reference Files
-
-Each article can have a `reference/` directory. Reference files are private to each article. Link from skills/pages as `../reference/<file>`.
+Articles can have a `reference/` directory for files that skills/pages need to reference: diagrams, code samples, pseudocode. Reference files are private to each article.

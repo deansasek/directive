@@ -1,15 +1,18 @@
 ---
 name: read
 type: skill
-about: Reads a file by path, returns frontmatter and content.
+about: Reads a file by path, returning both the YAML frontmatter and the Markdown body.
 ---
 
 # Read
 
-## Arguments
+Returns the complete file: frontmatter block followed by Markdown body.
 
-- `path` — file path, e.g. `articles/skills/read.skill.md`
+**Behavior:**
+1. Reads the target file
+2. Returns the full file as-is
 
-## Notes
+**Arguments:**
+- `path` — path to the file relative to `.claude/articles/`, e.g. `articles/skills/read.skill.md`
 
-- Path traversal (`..`) is rejected
+**Error:** "path traversal not allowed" if path contains `..`

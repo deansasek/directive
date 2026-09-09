@@ -20,6 +20,6 @@ The articles system organizes knowledge into articles, skills, and pages.
 
 ## Pages
 
-- **overview** — what articles are and why
-- **anatomy** — file types, frontmatter, naming
-- **usage** — how to work with articles
+- **overview** — what articles are and the three types
+- **anatomy** — file types, frontmatter, naming, reference files
+- **usage** — how to work with articles and best practices
