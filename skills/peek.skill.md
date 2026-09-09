@@ -15,6 +15,6 @@ Returns only the YAML frontmatter block of a file — nothing from the Markdown 
 4. Returns an empty response if the file has no frontmatter
 
 **Arguments:**
-- `path` — path to the file relative to `.claude/articles/`, e.g. `articles/skills/read.skill.md`
+- `path` — path to the file, e.g. `skills/read.skill.md` or `articles/articles.article.md`
 
 **Error:** "path traversal not allowed" if path contains `..`

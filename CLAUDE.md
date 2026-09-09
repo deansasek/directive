@@ -1,15 +1,7 @@
-# Articles
+# Directive
 
-A system for Claude Code agents to organize skills, documentation, and knowledge into articles.
+An engineering toolkit for Claude Code agents. Installed as a plugin — skills are available as `/directive:list`, `/directive:read`, etc.
 
-To install globally:
+## Features
 
-```bash
-cp -r articles ~/.claude/articles
-```
-
-Then add to `~/.claude/CLAUDE.md`:
-
-```
-See `.claude/articles/manifest.json` to discover articles.
-```
+- **articles** — organized knowledge system. See `articles/articles.article.md`

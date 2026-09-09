@@ -7,7 +7,7 @@ about: Updates frontmatter fields or replaces the full content of a file.
 # Update
 
 **Arguments:**
-- `path` — path to the file, e.g. `articles/skills/read.skill.md`
+- `path` — path to the file, e.g. `skills/read.skill.md`
 - `mode` — `patch` or `replace`
 
 ## Patch Mode

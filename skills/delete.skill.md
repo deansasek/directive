@@ -16,9 +16,9 @@ Removes a file or directory from `.claude/articles/`.
 
 **Behavior:**
 1. Validates path: no `..` allowed
-2. For `article`: deletes `<article-name>/` directory and everything inside
-3. For `skill`: deletes `<article-name>/skills/<item-name>.skill.md`
-4. For `page`: deletes `<article-name>/pages/<item-name>.page.md`
+2. For `article`: deletes `articles/<article-name>/` directory and everything inside
+3. For `skill`: deletes `articles/<article-name>/skills/<item-name>.skill.md`
+4. For `page`: deletes `articles/<article-name>/pages/<item-name>.page.md`
 5. Runs `regenerate` to update manifest
 
 **Errors:**

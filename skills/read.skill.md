@@ -13,6 +13,6 @@ Returns the complete file: frontmatter block followed by Markdown body.
 2. Returns the full file as-is
 
 **Arguments:**
-- `path` — path to the file relative to `.claude/articles/`, e.g. `articles/skills/read.skill.md`
+- `path` — path to the file, e.g. `skills/read.skill.md` or `articles/articles.article.md`
 
 **Error:** "path traversal not allowed" if path contains `..`

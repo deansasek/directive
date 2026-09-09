@@ -1,0 +1,8 @@
+{
+  "name": "directive",
+  "description": "An engineering toolkit for Claude Code — articles, skills, and pages for organized knowledge.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dean Sasek"
+  }
+}

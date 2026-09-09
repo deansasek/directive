@@ -1,44 +1,25 @@
-# Articles
+# Directive
 
-A system for Claude Code agents to organize skills, documentation, and knowledge into articles.
+An engineering toolkit for Claude Code agents, distributed as a plugin.
 
-## What Articles Is
-
-Articles is a file-based knowledge system for AI agents. It solves:
-- Token efficiency — load only what you need
-- Selective loading — scan a manifest, load only relevant skills/pages
-- Composition without duplication — articles coordinate, skills execute
-
-## Install for Claude Code
+## Install
 
 ```bash
-cp -r articles ~/.claude/articles
+# Clone the repo
+git clone https://github.com/deansasek/directive.git
+
+# Run from the plugin directory
+claude --plugin-dir ./directive
 ```
 
-Then add to `~/.claude/CLAUDE.md`:
+Or copy to your skills directory for auto-loading:
 
-```
-See `.claude/articles/manifest.json` to discover articles.
-```
-
-## Structure
-
-```
-articles/
-  manifest.json        # Auto-generated index of all articles
-  <name>/
-    <name>.article.md  # Entry point — lists skills and pages
-    skills/
-    pages/
-    reference/         # Files skills/pages reference
+```bash
+cp -r directive ~/.claude/skills/directive
 ```
 
-## How It Works
+## Features
 
-1. Read `manifest.json` to see all available articles
-2. Open an article's `<name>.article.md` to see its skills and pages
-3. Use the skills (list, read, peek, create, update, delete, regenerate) to navigate and manage
+### Articles
 
-## Articles Article
-
-The `articles` article is the meta-article — it explains the system and contains its own documentation. Read it to understand how articles work.
+Organized knowledge for AI agents — a manifest-driven system of articles, skills, and pages. See `articles/articles.article.md` for details.

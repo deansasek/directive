@@ -6,10 +6,10 @@ about: Scans all .article.md files and regenerates manifest.json with their fron
 
 # Regenerate
 
-Scans `.claude/articles/` recursively for all `.article.md` files and writes a fresh `manifest.json`.
+Scans for all `.article.md` files and writes a fresh `manifest.json`.
 
 **Behavior:**
-1. Recursively finds all files matching `*.article.md` under `.claude/articles/`
+1. Recursively finds all files matching `*.article.md`
 2. For each file:
    - Derives `name` from the filename: `timeline.article.md` → `name: timeline`
    - Extracts `type` and `about` from the YAML frontmatter
