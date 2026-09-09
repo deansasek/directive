@@ -8,4 +8,9 @@ about: Kotlin development environment setup and tooling.
 
 ## Pages
 
-- **lsp** — Kotlin LSP installation for Claude Code
+- **lsp** — Kotlin LSP installation
+- **docs** — Kotlin documentation reference
+
+## Skills
+
+- **fetch-docs** — fetch Kotlin documentation from kotlinlang.org
