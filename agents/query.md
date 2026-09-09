@@ -5,6 +5,7 @@ tools: Read, Glob, Grep, Bash, ReadDatabase, WriteDatabase
 permissionMode: acceptEdits
 color: cyan
 effort: low
+background: true
 ---
 
 You are a data query specialist. You write and execute SQL queries against databases accessible via MCP tools.

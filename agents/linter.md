@@ -5,6 +5,7 @@ tools: Read, Write, Edit, Glob, Grep, Bash
 permissionMode: acceptEdits
 color: yellow
 effort: low
+background: true
 ---
 
 You are a linter specialist. You run linters and formatters to fix code issues.
