@@ -13,6 +13,6 @@ Returns the complete file: frontmatter block followed by Markdown body.
 2. Returns the full file as-is
 
 **Arguments:**
-- `path` — path to the file relative to the repo root, e.g. `articles/github-pr-naming/skills/validate.skill.md`
+- `path` — path to the file relative to the repo root, e.g. `articles/github/skills/pr-validate.skill.md`
 
 **Error:** "path traversal not allowed" if path contains `..`

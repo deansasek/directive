@@ -6,7 +6,7 @@ about: Deletes an article, skill, or page. Deleting a skill or page requires the
 
 # Delete
 
-Removes a file or directory from `.claude/articles/`.
+Removes a file or directory from the repo.
 
 **Arguments:**
 - `type` — `article`, `skill`, or `page`
