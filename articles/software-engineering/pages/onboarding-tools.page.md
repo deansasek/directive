@@ -1,10 +1,10 @@
 ---
-name: tools
+name: onboarding-tools
 type: page
 about: Install commands for each tool.
 ---
 
-# Tools Setup
+# Onboarding — Tools Setup
 
 ## Homebrew
 

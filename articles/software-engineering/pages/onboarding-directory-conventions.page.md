@@ -1,10 +1,10 @@
 ---
-name: directory-conventions
+name: onboarding-directory-conventions
 type: page
 about: Where to put things in your home directory.
 ---
 
-# Directory Conventions
+# Onboarding — Directory Conventions
 
 ## Repos
 

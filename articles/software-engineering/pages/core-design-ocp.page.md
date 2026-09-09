@@ -1,10 +1,10 @@
 ---
-name: ocp
+name: core-design-ocp
 type: page
 about: Open/Closed — open for extension, closed for modification.
 ---
 
-# OCP — Open/Closed
+# Core Design — OCP
 
 Software entities should be open for extension but closed for modification.
 

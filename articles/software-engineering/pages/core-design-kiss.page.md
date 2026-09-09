@@ -1,10 +1,10 @@
 ---
-name: kiss
+name: core-design-kiss
 type: page
 about: Keep It Simple, Stupid — write straightforward code and avoid unnecessary complexity.
 ---
 
-# KISS — Keep It Simple, Stupid
+# Core Design — KISS
 
 Write straightforward code. Avoid unnecessary complexity.
 

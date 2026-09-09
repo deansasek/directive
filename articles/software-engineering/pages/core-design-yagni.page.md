@@ -1,10 +1,10 @@
 ---
-name: yagni
+name: core-design-yagni
 type: page
 about: You Aren't Gonna Need It — don't build features until they are actually required.
 ---
 
-# YAGNI — You Aren't Gonna Need It
+# Core Design — YAGNI
 
 Don't build features or abstractions until they are actually required.
 

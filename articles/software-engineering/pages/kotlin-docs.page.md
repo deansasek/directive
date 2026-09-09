@@ -1,9 +1,9 @@
 ---
-name: docs
+name: kotlin-docs
 type: page
 about: Kotlin documentation reference.
 ---
 
-# Kotlin Docs
+# Kotlin — Docs
 
 Reference: https://kotlinlang.org/docs/home.html

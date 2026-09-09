@@ -1,10 +1,10 @@
 ---
-name: dry
+name: core-design-dry
 type: page
 about: Don't Repeat Yourself — every piece of knowledge should have a single, authoritative representation.
 ---
 
-# DRY — Don't Repeat Yourself
+# Core Design — DRY
 
 Every piece of knowledge should have a single, authoritative representation in the system.
 

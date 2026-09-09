@@ -1,10 +1,10 @@
 ---
-name: soc
+name: core-design-soc
 type: page
 about: Separation of Concerns — divide code into distinct sections, each addressing a separate concern.
 ---
 
-# SoC — Separation of Concerns
+# Core Design — SoC
 
 Divide code into distinct sections, each addressing a separate concern.
 

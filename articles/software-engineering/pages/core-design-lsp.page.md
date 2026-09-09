@@ -1,10 +1,10 @@
 ---
-name: lsp
+name: core-design-lsp
 type: page
 about: Liskov Substitution — objects should be replaceable with subtypes without breaking the application.
 ---
 
-# LSP — Liskov Substitution
+# Core Design — LSP
 
 Objects in a system should be replaceable with instances of their subtypes without breaking the application.
 

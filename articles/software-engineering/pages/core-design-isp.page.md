@@ -1,10 +1,10 @@
 ---
-name: isp
+name: core-design-isp
 type: page
 about: Interface Segregation — many specific interfaces are better than one broad interface.
 ---
 
-# ISP — Interface Segregation
+# Core Design — ISP
 
 Many client-specific interfaces are better than one broad, general-purpose interface.
 

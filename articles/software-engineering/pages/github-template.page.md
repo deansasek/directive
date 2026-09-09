@@ -1,10 +1,12 @@
 ---
-name: template
+name: github-template
 type: page
-about: Standardized PR body template.
+about: Standardized PR body template and how to configure it.
 ---
 
-# Template
+# GitHub — PR Template
+
+## Template
 
 ```markdown
 ## Description
@@ -30,3 +32,11 @@ about: Standardized PR body template.
 - [ ] Documentation
 - [ ] Security implications
 ```
+
+## Setup
+
+Create `.github/PULL_REQUEST_TEMPLATE.md`. Comments are stripped when the PR opens.
+
+## Enforcement
+
+Use `semantic-pull-requests` GitHub Action to require conventional PR titles.
