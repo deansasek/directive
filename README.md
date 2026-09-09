@@ -22,4 +22,4 @@ cp -r directive ~/.claude/skills/directive
 
 ### Articles
 
-Organized knowledge for AI agents — a manifest-driven system of articles, skills, and pages. See `articles/articles.article.md` for details.
+Organized knowledge for AI agents — a manifest-driven system of articles, skills, and pages. See `articles/articles/articles.article.md` for details.

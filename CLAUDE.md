@@ -4,4 +4,4 @@ An engineering toolkit for Claude Code agents. Installed as a plugin — skills 
 
 ## Features
 
-- **articles** — organized knowledge system. See `articles/articles.article.md`
+- **articles** — organized knowledge system. See `articles/articles/articles.article.md`

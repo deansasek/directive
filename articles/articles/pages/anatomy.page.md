@@ -9,13 +9,13 @@ about: File types, frontmatter, directory structure, and naming conventions.
 ## File Types
 
 ### `<name>.article.md`
-The article entry point. Lives in `articles/`. Contains frontmatter and lists its skills and pages.
+The article entry point. Lives in `articles/<name>/`. Contains frontmatter and lists its skills and pages.
 
 ### `<name>.skill.md`
-A skill — step-by-step directives. Lives in `skills/` at the repo root.
+A skill — step-by-step directives. Lives in `articles/<name>/skills/`.
 
 ### `<name>.page.md`
-A page — workflow guidance. Lives in `pages/` at the repo root.
+A page — workflow guidance. Lives in `articles/<name>/pages/`.
 
 ## Frontmatter
 
@@ -32,14 +32,13 @@ For articles, `name` must match the filename without `.article.md`.
 ## Directory Structure
 
 ```
-<plugin>/
+articles/
   manifest.json
-  skills/
-  pages/
-  articles/
-    <name>/
-      <name>.article.md
-      reference/
+  <name>/
+    <name>.article.md
+    skills/
+    pages/
+    reference/
 ```
 
 ## Naming
@@ -51,7 +50,7 @@ For articles, `name` must match the filename without `.article.md`.
 
 Reference files live in `articles/<name>/reference/` and are private to each article.
 
-From skills/pages, link as: `../articles/<name>/reference/<filename>`
-From the article file, link as: `articles/<name>/reference/<filename>`
+From skills/pages, link as: `../reference/<filename>`
+From the article file, link as: `reference/<filename>`
 
 Use for: diagrams, code samples, pseudocode, any file a skill or page needs to reference.

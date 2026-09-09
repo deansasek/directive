@@ -6,7 +6,7 @@ about: Scans all .article.md files and regenerates manifest.json with their fron
 
 # Regenerate
 
-Scans for all `.article.md` files under `articles/` and writes a fresh `manifest.json` to the repo root.
+Scans for all `.article.md` files under `articles/` and writes a fresh `manifest.json` next to the `articles/` directory.
 
 **Behavior:**
 1. Recursively finds all files matching `*.article.md` under `articles/`
