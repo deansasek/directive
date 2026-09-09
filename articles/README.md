@@ -4,10 +4,9 @@ A knowledge organization system for AI agents — manifest-driven, token-efficie
 
 ## What It Is
 
-- **manifest.json** — index of all articles
-- **skills/** — tooling: list, read, peek, create, update, delete, regenerate
-- **pages/** — guidance: overview, anatomy, usage
-- **articles/** — article content entry points
+- **manifest.json** — index of all articles (at `~/.claude/articles/manifest.json`)
+- **articles/articles/** — the "articles" meta-article with core skills and pages
+- **articles/<name>/** — individual article content with their own skills and pages
 
 ## Install (Global)
 
