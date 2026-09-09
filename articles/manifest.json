@@ -1,1 +1,1 @@
-{"articles":[{"name":"articles","type":"article","about":"Meta-article explaining how the articles system works."},{"name":"github","type":"article","about":"GitHub conventions — PR naming, commits, and PR templates."}]}
+{"articles":[{"name":"articles","type":"article","about":"Meta-article explaining how the articles system works."},{"name":"github","type":"article","about":"GitHub conventions — PR naming, commits, and PR templates."},{"name":"onboarding","type":"article","about":"Engineering environment setup — Claude Code, tmux, and oh-my-zsh."}]}
