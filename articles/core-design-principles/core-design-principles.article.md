@@ -8,5 +8,12 @@ about: Core software design principles — DRY, KISS, YAGNI, SoC, and SOLID.
 
 ## Pages
 
-- **foundations** — DRY, KISS, YAGNI, Separation of Concerns
-- **solid** — Single Responsibility, Open/Closed, Liskov, Interface Segregation, Dependency Inversion
+- **dry** — Don't Repeat Yourself
+- **kiss** — Keep It Simple
+- **yagni** — You Aren't Gonna Need It
+- **soc** — Separation of Concerns
+- **srp** — Single Responsibility
+- **ocp** — Open/Closed
+- **lsp** — Liskov Substitution
+- **isp** — Interface Segregation
+- **dip** — Dependency Inversion
