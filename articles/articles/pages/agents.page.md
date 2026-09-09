@@ -6,21 +6,26 @@ about: The stock agents that come with the directive toolkit.
 
 # Agents
 
-Directive ships with two stock agents:
+Directive ships with three stock agents:
+
+## `@project-manager`
+
+Orchestrates tasks. Breaks work into research → implementation phases, delegates to researcher and engineer.
 
 ## `@researcher`
 
-Researches codebases and surfaces findings. Use when exploring unfamiliar code, auditing architecture, or identifying patterns. Delegates implementation to `@engineer`.
+Researches codebases and surfaces findings. Use for audits, exploring unfamiliar code, identifying patterns.
 
 ## `@engineer`
 
-Implements, scaffolds, refactors, and fixes. Takes direction from `@researcher`. Reads article pages for conventions when relevant — no preloading.
+Implements, scaffolds, refactors, and fixes. Reads article pages for conventions when relevant — no preloading.
 
 ## Usage
 
 ```
 claude --plugin-dir ./directive
-@researcher audit the auth module
+@project-manager plan the auth refactor
+@researcher audit the billing module
 @engineer scaffold a new article called 'api-design'
 ```
 
