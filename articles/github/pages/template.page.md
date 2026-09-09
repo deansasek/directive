@@ -1,14 +1,10 @@
 ---
-name: github-pr-template
-type: article
-about: Standardized PR body template for code review and auditability.
+name: template
+type: page
+about: Standardized PR body template.
 ---
 
-# GitHub PR Template
-
-Standardized PR body for human-readable code review.
-
-## Template
+# Template
 
 ```markdown
 ## Description
@@ -34,8 +30,3 @@ Standardized PR body for human-readable code review.
 - [ ] Documentation
 - [ ] Security implications
 ```
-
-## Pages
-
-- **sections** — what each section is for
-- **setup** — configuring `.github/PULL_REQUEST_TEMPLATE.md`

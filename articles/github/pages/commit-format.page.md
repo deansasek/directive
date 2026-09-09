@@ -1,7 +1,7 @@
 ---
-name: format
+name: commit-format
 type: page
-about: Header, body, and footer structure.
+about: Commit header, body, and footer structure.
 ---
 
 # Format
@@ -12,8 +12,7 @@ about: Header, body, and footer structure.
 <type>(<scope>): <summary>
 ```
 
-- Imperative, lowercase, under 72 chars
-- No period at end
+Imperative, lowercase, under 72 chars, no period.
 
 ## Body (optional)
 
